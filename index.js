@@ -39,7 +39,7 @@ const questions = async () => {
           "GNU General Public License",
           "MIT License",
           "Boost Software License 1.0",
-          "Mozilla Publice License 2.0",
+          "Mozilla Public License 2.0",
           "None",
         ],
       },

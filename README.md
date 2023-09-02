@@ -1,10 +1,10 @@
-# Title
+# ReadMe Generator
 
-  undefined
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description 
 
-  Description
+  This project creates a professional ReadMe template for developers to use
 
   ## Contents 
 
@@ -18,27 +18,27 @@
 
   ## Installation 
 
-  Installation
+  npm i inquirer
 
   ## Usage
 
-  Usage
+  Use for projects to save time
 
   ## License
 
-  Boost Software License 1.0
+  MIT License
 
   ## Contributing 
 
-  Guidelines
+  Get in touch to contribute
 
   ## Tests
 
-  Tests
+  Create your own list of tests
 
   ## Questions
 
   If you have any questions or would like to find out more, you can reach me on: 
-  GitHub: [Username](https://github.com/Username)
-  Email: [Email](mailto:Email)
+  GitHub: [CharlotteBGH](https://github.com/CharlotteBGH)
+  Email: [charlottebrazier@hotmail.com](mailto:charlottebrazier@hotmail.com)
 
