@@ -1,15 +1,15 @@
 const fs = require("fs");
-const path = require("path");
+//const path = require("path");
 const inquirer = require("inquirer");
 const generateMarkdown = require("./utils/generateMarkdown");
+const util = require("util");
 
-//writeFileAsync
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions for user
 const questions = async () => {
   try {
-    await inquirer.prompt([
+    const answers = await inquirer.prompt([
       {
         type: "input",
         name: "title",
@@ -23,8 +23,7 @@ const questions = async () => {
       {
         type: "input",
         name: "installation",
-        message:
-          "Fantastic. What are the installation instructions for your project?",
+        message: "What are the installation instructions for your project?",
       },
       {
         type: "input",
@@ -35,7 +34,7 @@ const questions = async () => {
         type: "list",
         name: "license",
         message: "Please select a license for your project",
-        licenceOptions: [
+        choices: [
           "Apache License 2.0",
           "GNU General Public License",
           "MIT License",
@@ -53,8 +52,7 @@ const questions = async () => {
       {
         type: "input",
         name: "tests",
-        message:
-          "Please add a short description of which tests users can run on your project",
+        message: "Please list which tests users can run on your project",
       },
       {
         type: "input",
@@ -79,11 +77,11 @@ const questions = async () => {
 // function to initialize program
 async function init() {
   try {
-    const responses = await questions();
+    const answers = await questions();
     const readmeText = generateMarkdown(answers);
     console.log("Your README file is being generated...");
-    await writeFileAsync("READMe.md, readmeText");
-    console.log("Your READMe file is now ready! Open on the left to view it");
+    await writeFileAsync("README.md", readmeText);
+    console.log("Your README file is now ready! Open on the left to view it");
   } catch (error) {
     console.error(error);
   }
