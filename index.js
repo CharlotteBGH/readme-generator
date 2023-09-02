@@ -38,7 +38,7 @@ const questions = async () => {
         licenceOptions: [
           "Apache License 2.0",
           "GNU General Public License",
-          "MIT license",
+          "MIT License",
           "Boost Software License 1.0",
           "Mozilla Publice License 2.0",
           "None",
