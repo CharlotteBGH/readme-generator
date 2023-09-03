@@ -1,10 +1,10 @@
-# New Development Project
+# README Generator
 
   ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## Description 
 
-  Exciting new README generator to create professional README files in minutes
+  This project generates professional README files in minutes to make life easier for developers
 
   ## Contents 
 
@@ -22,7 +22,7 @@
 
   ## Usage
 
-  Use to create README files for projects
+  Use to generate README files
 
   ## License
 
@@ -34,7 +34,7 @@
 
   ## Tests
 
-  Not currently any set tests
+  No current set tests
 
   ## Questions
 
