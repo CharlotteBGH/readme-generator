@@ -20,7 +20,7 @@ Watch a walkthrough of the README Generator here: https://watch.screencastify.co
 ![image](https://github.com/CharlotteBGH/readme-generator/assets/99615123/84ba40f1-97d8-4eea-bfe7-8cd40d810071)
 
 ## Usage
-To try out the application for yourself, download the files (and inquirer 8.0.0 and util using the most up-to-date documentation) and invoke the index.js file using 'node index.js'. Then respond to each of the prompts in the Integrated Terminal. Your README file will be generated to the left of your screen. 
+To try out the application for yourself, clone the repo, download inquirer using npm i inquirer, and invoke the index.js file using 'node index.js'. Then respond to each of the prompts in the Integrated Terminal. Your README file will be generated to the left of your screen. 
 ## License
 MIT. Please see original GitHub repository. 
 
